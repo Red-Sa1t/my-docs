@@ -26,4 +26,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4  
         with:  
           branch: gh-pages  # 部署目标分支  
-          folder: site      # 待部署的文件目录  
+          folder: site     # 待部署的文件目录  
