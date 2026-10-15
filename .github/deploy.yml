@@ -4,7 +4,7 @@ on:
     branches:  
       - main  # 仅在main分支推送时触发  
     paths:  
-      - 'docs/**'  # docs目录变化时触发  
+      - 'docs/**' # docs目录变化时触发  
       - 'mkdocs.yml'  # 配置文件变化时触发  
 jobs:  
   deploy:  
